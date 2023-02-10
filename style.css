@@ -1,0 +1,2560 @@
+body {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.audio {
+    display: none;
+}
+
+.cursor {
+    cursor: url(ouro.cur), default;
+}
+
+@import url("https://fonts.cdnfonts.com/css/harry-potter");
+
+/*HEADER*/
+
+.cabecalho {
+    background-color: #ae0001;
+    width: 100%;
+    height: 200px;
+}
+
+.container__um {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plataforma {
+    width: 167px;
+}
+
+.harry {
+    width: 530px;
+}
+
+.logo {
+    width: 181px;
+}
+
+.ouro {
+    width: 150px;
+}
+
+
+/*parte um intro salão central*/
+
+.container__dois {
+    position: relative;
+    background-color: white;
+}
+
+.gif {
+    opacity: calc(0.4);
+}
+
+.gif__layout {
+    width: 100%;
+    height: 425px;
+    margin: 0px 0px 19px 0px;
+}
+
+.escrita {
+    font-size: 34px;
+    margin-top: -56px;
+}
+
+.titulo__intro {
+    position: absolute;
+    margin: -335px 0px 0px 35px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Harry Potter", sans-serif;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.texto__intro {
+    margin: -313px 10px 0px 50px;
+    position: absolute;
+    font-size: 32px;
+    font-family: "Harry Potter", sans-serif;
+    line-height: 60px;
+    letter-spacing: 2px;
+    color: black;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+
+/*parte dois chapeu seletor*/
+
+.titulo__chapeu {
+    margin: 70px 0px 25px 0px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "harry potter";
+    letter-spacing: 3px;
+    color: white;
+}
+
+.chapeu__gif {
+    width: 440px;
+    height: 370px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 40px;
+    position: relative;
+}
+
+.texto__chapeu {
+    margin: -368px 25px 0px 500px;
+    font-size: 20px;
+    font-family: "courgette";
+    line-height: 36px;
+    letter-spacing: 2px;
+    position: absolute;
+    color: white;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+
+/*Layout logo, texto e imagens das casas*/
+
+.casa {
+    margin: 110px 0px 170px 0px;
+}
+
+.titulo__casas {
+    margin: 70px 0px 25px 0px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "harry potter";
+    letter-spacing: 3px;
+    color: white;
+}
+
+.imagem__casas__um {
+    width: 250px;
+    margin: 0 0 0 15px;
+}
+
+.texto__casas {
+    margin: -243px 274px 0px 282px;
+    font-size: 20px;
+    font-family: "courgette";
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: white;
+    text-indent: 30px;
+}
+
+.imagem__casas__dois {
+    width: 250px;
+    margin: -210px 0px 0px 1084px;
+}
+
+
+/*Layout das imagens das casas e textos*/
+
+.container__quatro {
+    margin-top: -90px;
+}
+
+.grifinoria__fundo__intro {
+    background-color: #53031c;
+}
+
+.titulo__grifinoria__intro {
+    font-size: 50px;
+    color: white;
+    font-family: "harry potter";
+    letter-spacing: 3px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.link__grifinoria__titulo__intro,
+.link__grifinoria__texto__intro {
+    text-decoration: none;
+    color: white;
+}
+
+.link__grifinoria__titulo__intro:hover,
+.link__grifinoria__texto__intro:hover {
+    color: gold;
+}
+
+.casa__grifinoria__intro {
+    display: flex;
+    margin: 60px 0 150px 0;
+}
+
+.grifinoria__escudo__intro {
+    margin: -116px 0px 0px -63px;
+    width: 410px;
+    position: absolute;
+}
+
+.texto__grifinoria__intro {
+    position: relative;
+    margin: -37px 15px 61px 273px;
+    font-size: 25px;
+    font-family: "courgette";
+    color: white;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.sonserina__fundo__intro {
+    background-color: #173825;
+    height: 310px;
+}
+
+.titulo__sonserina__intro {
+    font-size: 50px;
+    font-family: "harry potter";
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link__sonserina__titulo__intro,
+.link__sonserina__texto__intro {
+    text-decoration: none;
+    color: white;
+}
+
+.link__sonserina__titulo__intro:hover,
+.link__sonserina__texto__intro:hover {
+    color: gold;
+}
+
+.casa__sonserina__intro {
+    display: flex;
+    margin: 60px 0 150px 0;
+}
+
+.sonserina__escudo__intro {
+    width: 260px;
+    margin: -110px 0px 0px 1058px;
+    position: absolute;
+}
+
+.texto__sonserina__intro {
+    font-size: 25px;
+    font-family: "courgette";
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: white;
+    margin: -37px 296px 0px 15px;
+    position: relative;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.titulo__sonserina__intro__:hover,
+.texto__sonserina__intro:hover {
+    cursor: pointer;
+    color: gold;
+}
+
+.lufa__fundo__intro {
+    background-color: #e79408;
+    margin: 150px 0 0 0;
+    height: 298px;
+}
+
+.titulo__lufa__intro {
+    font-size: 50px;
+    font-family: "harry potter";
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link__lufa__titulo__intro,
+.link__lufa__texto__intro {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.link__lufa__titulo__intro:hover,
+.link__lufa__texto__intro:hover {
+    color: gold;
+}
+
+.casa__lufa__intro {
+    display: flex;
+    margin: 60px 0 150px 0;
+}
+
+.lufa__escudo__intro {
+    margin: -125px 0px 0px -63px;
+    width: 410px;
+    position: absolute;
+}
+
+.texto__lufa__intro {
+    position: relative;
+    margin: -37px 15px 61px 273px;
+    font-size: 25px;
+    font-family: "courgette";
+    color: rgb(255, 255, 255);
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.titulo__lufa__intro:hover,
+.texto__lufa__intro:hover {
+    cursor: pointer;
+    color: gold;
+}
+
+.corvinal__fundo__intro {
+    background-color: #1d476f;
+    margin-top: 150px;
+}
+
+.titulo__corvinal__intro {
+    font-size: 50px;
+    font-family: "harry potter";
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.casa__corvinal__intro {
+    display: flex;
+    margin: 60px 0 150px 0;
+}
+
+.texto__corvinal__intro {
+    font-size: 25px;
+    font-family: "courgette";
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    margin: -37px 296px 64px 17px;
+    position: relative;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.titulo__corvinal__intro:hover,
+.texto__corvinal__intro:hover {
+    cursor: pointer;
+    color: gold;
+}
+
+.corvinal__escudo__intro {
+    width: 220px;
+    margin: -116px 0px 0px 1058px;
+    position: absolute;
+}
+
+.link__corvinal__titulo__intro,
+.link__corvinal__texto__intro {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.link__corvinal__titulo__intro:hover,
+.link__corvinal__texto__intro:hover {
+    color: gold;
+}
+
+
+/*FOOTER*/
+
+.layout__botoes {
+    background-color: #ae0001;
+    width: 100%;
+    height: 300px;
+}
+
+.layout__bandeira {
+    position: absolute;
+}
+
+.bandeiras {
+    width: 160px;
+}
+
+.coruja {
+    position: absolute;
+}
+
+.layout__coruja {
+    width: 130px;
+    margin: 8px 0px 0px 610px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 751px;
+    padding-top: 42px;
+    position: absolute;
+    font-family: "harry potter";
+    letter-spacing: 1px;
+}
+
+.botao1 {
+    font-size: 31px;
+    margin: 5px 9px 0px 0px;
+}
+
+.botao2 {
+    width: 290px;
+    height: 22px;
+    margin: -3px 13px 0px 0px;
+}
+
+.botao3 {
+    width: 72px;
+    height: 34px;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 0;
+    margin-bottom: 3px;
+    font-family: "harry potter";
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.botao3:hover {
+    background-color: #e79408;
+    color: white;
+}
+
+.dobby__imagem {
+    position: relative;
+    width: 155px;
+    margin: 131px 0 0 36px;
+}
+
+.lista {
+    position: absolute;
+    margin: -260px 0 0 282px;
+    line-height: 52px;
+    font-size: 30px;
+    font-family: "harry potter";
+    cursor: pointer;
+    letter-spacing: 3px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.home__a,
+.casas__a,
+.criaturas__a,
+.feiticos__a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.home:hover,
+.casas:hover,
+.sobrenos:hover,
+.feiticos:hover {
+    color: #e79408;
+}
+
+.personagens {
+    position: absolute;
+}
+
+.harry__layout {
+    width: 116px;
+    position: absolute;
+    margin: -210px 0 0 739px;
+}
+
+.hermione__layout {
+    width: 98px;
+    position: absolute;
+    margin: -215px 0 0 912px;
+}
+
+.ronie__layout {
+    width: 85px;
+    position: absolute;
+    margin: -220px 0 0 1073px;
+}
+
+.hagrid__layout {
+    width: 129px;
+    position: absolute;
+    margin: -215px 0 0 1210px;
+}
+
+
+/* PAGINA DE HOGWARTS*/
+
+
+/*primeira seção *Hogwarts* */
+
+.brasao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.brasao__um {
+    width: 100px;
+}
+
+.titulo__hogwarts {
+    margin: 30px 0px 12px 0px;
+    text-align: center;
+    font-family: "harry potter";
+    font-size: 50px;
+    color: white;
+}
+
+.gif__castelo {
+    width: 700px;
+    height: 370px;
+    margin: 0px 11px 0px 10px;
+    float: left;
+}
+
+.texto__hogwarts__um {
+    margin: 3px 25px 410px 730px;
+    font-size: 20px;
+    font-family: "courgette";
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-indent: 30px;
+    color: white;
+}
+
+.texto__hogwarts__dois {
+    margin: -400px 25px 0px 25px;
+    font-size: 22px;
+    font-family: "courgette";
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-indent: 30px;
+    color: white;
+}
+
+.texto__hogwarts__tres {
+    margin: 10px 25px 0px 25px;
+    font-size: 22px;
+    font-family: "courgette";
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-indent: 30px;
+    color: white;
+}
+
+.texto__hogwarts__quatro {
+    margin: 10px 25px 0px 25px;
+    font-size: 22px;
+    font-family: "courgette";
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-indent: 30px;
+    color: white;
+}
+
+
+/*segunda seção *mulher gorda*/
+
+.primeira__curiosidade {
+    margin-top: 130px;
+}
+
+.titulo__mulher__gorda {
+    text-align: center;
+    font-family: "harry potter";
+    font-size: 50px;
+    margin-top: 85px;
+    color: white;
+}
+
+.gif__mulher__gorda {
+    width: 600px;
+    margin: 30px 10px 0px 13px;
+    float: right;
+}
+
+.texto__mulher__gorda {
+    margin: 19px 0px 0px 20px;
+    font-size: 22px;
+    font-family: "Courgette", cursive;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-indent: 30px;
+    color: white;
+}
+
+
+/*Terceira seção *teto* */
+
+.segunda__curiosidade {
+    margin-top: 130px;
+}
+
+.titulo__teto {
+    text-align: center;
+    font-family: "harry potter";
+    font-size: 50px;
+    color: white;
+}
+
+.gif__teto {
+    width: 600px;
+    margin: 30px 16px 0px 13px;
+    float: left;
+}
+
+.texto__teto {
+    margin: 30px 20px 81px 0px;
+    font-size: 22px;
+    font-family: "courgette";
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-indent: 30px;
+    color: white;
+}
+
+
+/* ESCADAS */
+
+.terceira__curiosidade {
+    margin-top: 130px;
+}
+
+.titulo__escadas {
+    display: block;
+    margin: 114px 0px 20px 0px;
+    text-align: center;
+    font-family: "harry potter";
+    font-size: 50px;
+    color: white;
+}
+
+.gif__escadas {
+    width: 600px;
+    float: right;
+    margin: 0px 15px 0px 15px;
+}
+
+.texto__escadas {
+    margin: 30px 0px 203px 20px;
+    font-family: "courgette";
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-indent: 30px;
+    color: white;
+}
+
+.titulo__quadros {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-family: "harry potter";
+    margin-bottom: 25px;
+    margin: -70px 0 25px 0px;
+    color: white;
+}
+
+.gif__quadros {
+    width: 600px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.texto__quadros {
+    font-size: 22px;
+    font-family: courgette;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    margin: -7px 20px 60px 20px;
+    color: white;
+}
+
+
+/* PAGINA DAS CRIATURAS MITOLOGICAS*/
+
+.titulo__criaturas__mitologicas {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "harry potter";
+    margin: 40px 0 25px 0;
+}
+
+.texto__criaturas__mitologicas__um {
+    font-size: 22px;
+    font-family: "courgette";
+    margin: 0px 770px 0px 30px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.texto__criaturas__mitologicas__dois {
+    font-size: 22px;
+    font-family: "courgette";
+    margin: 6px 770px 0px 30px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.lista__poderes {
+    list-style: none;
+    font-family: "courgette";
+    font-size: 22px;
+    margin: -505px 43px 0px 625px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.harry__patrono {
+    width: 270px;
+    margin: -54px 0px 0px 792px;
+}
+
+
+/* LAYOUT BASILISCO*/
+
+.titulo__basilisco {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: harry potter;
+    margin: 30px 0px 30px 0px;
+}
+
+.texto__basilisco__um {
+    margin: 0px 780px 0px 20px;
+    font-family: "courgette";
+    font-size: 22px;
+    position: absolute;
+    line-height: 36px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 2px;
+}
+
+.texto__basilisco__dois {
+    margin: 360px 20px 0px 20px;
+    font-family: "courgette";
+    font-size: 22px;
+    position: absolute;
+    line-height: 36px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 2px;
+}
+
+.gif__basilisco {
+    width: 756px;
+    margin: 7px 0px 0px 584px;
+}
+
+.borda__basilisco {
+    border: 2px solid rgb(255, 255, 255);
+    width: 1225px;
+    height: 204px;
+    margin: 150px 0px 0px 62px;
+    background-color: #8f3636;
+}
+
+.poderes__basilisco {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: -153px 0px -126px 38px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.titulo__poderes__basilisco {
+    font-size: 40px;
+    font-family: "harry potter";
+    margin: 185px 0px 5px 149px;
+}
+
+.derrotar__basilisco {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: -148px 0px 0px 972px;
+    line-height: 30px;
+}
+
+.titulo__derrota__basilisco {
+    font-size: 40px;
+    font-family: "harry potter";
+    margin: 0px 0px 7px -155px;
+}
+
+.texto__derrota {
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    margin: 0px 0 0 -296px;
+}
+
+
+/*LAYOUT BICHO PAPAO*/
+
+.titulo__bicho__papao {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "harry potter";
+    margin: 90px 0 50px 0;
+}
+
+.texto__bicho__papao {
+    font-family: "Courgette";
+    font-size: 22px;
+    margin: -30px 30px 0 780px;
+    position: absolute;
+    text-align: justify;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+}
+
+.gif__bicho__papao {
+    width: 756px;
+    margin-left: 9px;
+}
+
+.borda__bicho__papao {
+    border: 2px solid white;
+    width: 1225px;
+    height: 204px;
+    margin: 10px 0px 0px 50px;
+    background-color: #8f3636;
+}
+
+.poderes__bicho__papao__um {
+    font-size: 22px;
+    font-family: "courgette";
+    margin: 35px 0 0 55px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.titulo__poderes__bicho__papao {
+    font-size: 40px;
+    font-family: "harry potter";
+    margin: 0px 0px 5px 203px;
+}
+
+.poderes__bicho__papao__dois {
+    font-size: 22px;
+    font-family: "courgette";
+    margin: -113px 0 0 357px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.derrotar__bicho__papao {
+    font-size: 22px;
+    font-family: "courgette";
+    margin: -143px 0px 0px 728px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.titulo__derrota__bicho__papao {
+    font-size: 40px;
+    font-family: "harry potter";
+    margin: 0px 0px 3px 54px;
+}
+
+
+/*LAYOUT CENTAURO*/
+
+.titulo__centauro {
+    display: flex;
+    font-family: "Harry Potter";
+    font-size: 50px;
+    margin: 90px 0 50px 0px;
+    justify-content: center;
+}
+
+.texto__centauro {
+    font-family: "Courgette";
+    font-size: 22px;
+    position: absolute;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    line-height: 36px;
+    margin: 0px 775px 0px 20px;
+}
+
+.gif__centauro {
+    width: 756px;
+    margin: 7px 0px 0px 584px;
+}
+
+.borda__centauro {
+    border: 2px solid white;
+    width: 291px;
+    height: 234px;
+    margin: -180px 0px 0px 115px;
+    background-color: #8f3636;
+}
+
+.poderes__centauro {
+    font-size: 22px;
+    font-family: "Courgette";
+    margin: 31px 0px 0px 33px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.titulo__poderes__centauro {
+    font-size: 40px;
+    font-family: "harry potter";
+    margin: 0px 0px 5px 48px;
+}
+
+
+/*LAYOUT DEMENTADOR*/
+
+.titulo__dementador {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "harry potter";
+    margin: 90px 0 50px 0;
+}
+
+.texto__dementador {
+    font-family: "Courgette";
+    font-size: 22px;
+    margin: 0px 30px 0 780px;
+    position: absolute;
+    text-align: justify;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+}
+
+.gif__dementador {
+    width: 756px;
+    margin: 0 0 0 9px;
+}
+
+.borda__dementador {
+    border: 2px solid white;
+    width: 1225px;
+    height: 297px;
+    margin: 10px 0px 0px 50px;
+    background-color: #8f3636;
+}
+
+.poderes__dementador {
+    font-size: 22px;
+    font-family: "courgette";
+    margin: 51px 0 0 55px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.titulo__poderes__dementador {
+    font-size: 40px;
+    font-family: "harry potter";
+    margin: 0px 0px 5px 60px;
+}
+
+.derrotar__dementador {
+    font-size: 22px;
+    font-family: "courgette";
+    margin: -215px 0px 0px 647px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.titulo__derrota__dementador {
+    font-size: 40px;
+    font-family: "harry potter";
+    margin: 0px 0px 5px 52px;
+}
+
+
+/*LAYOUT DRAGAO*/
+
+.titulo__dragao {
+    display: flex;
+    font-family: "Harry Potter";
+    font-size: 50px;
+    margin: 90px 0 50px 0px;
+    justify-content: center;
+}
+
+.gif__dragao {
+    width: 756px;
+    margin: 3px 9px 0px 10px;
+    float: right;
+    position: relative;
+}
+
+.texto__dragao {
+    font-family: "Courgette";
+    font-size: 22px;
+    position: relative;
+    text-align: justify;
+    line-height: 36px;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+}
+
+.borda__dragao {
+    border: 2px solid white;
+    width: 414px;
+    height: 238px;
+    margin: -30px 0px 0px 450px;
+    background-color: #8f3636;
+}
+
+.poderes__dragao {
+    font-size: 22px;
+    font-family: "Courgette";
+    margin: 33px 0px 0px 43px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.titulo__poderes__dragao {
+    font-size: 40px;
+    font-family: "harry potter";
+    margin: 19px 0px 7px 29px;
+}
+
+
+/*LAYOUT DUENDE*/
+
+.titulo__duende {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "harry potter";
+    margin: 90px 0 50px 0;
+}
+
+.gif__duende {
+    width: 756px;
+    float: left;
+    position: relative;
+    margin: 0px 10px 0px 20px;
+}
+
+.texto__duende {
+    font-family: "Courgette";
+    font-size: 22px;
+    margin: 0px 30px 0 20px;
+    position: relative;
+    text-align: justify;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+}
+
+.borda__duende {
+    border: 2px solid white;
+    width: 944px;
+    height: 205px;
+    margin: 10px 0px 0px 188px;
+    background-color: #8f3636;
+}
+
+.poderes__duende {
+    font-size: 22px;
+    font-family: "courgette";
+    margin: 31px 0 0 55px;
+    line-height: 36px;
+}
+
+.titulo__poderes__duende {
+    font-size: 40px;
+    font-family: "harry potter";
+    margin: 0px 0px 10px 302px;
+}
+
+.poderes__duende__dois {
+    font-size: 22px;
+    font-family: "courgette";
+    margin: -108px 0 0 436px;
+    line-height: 36px;
+}
+
+
+/*LAYOUT ELFOS*/
+
+.titulo__elfo {
+    display: flex;
+    font-family: "Harry Potter";
+    font-size: 50px;
+    margin: 90px 0 50px 0px;
+    justify-content: center;
+}
+
+.gif__elfo {
+    width: 756px;
+    margin: -20px 0px 0px 10px;
+    position: relative;
+    float: right;
+}
+
+.texto__elfo {
+    font-family: "Courgette";
+    font-size: 22px;
+    position: relative;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    line-height: 36px;
+    margin: -34px 20px 0px 15px;
+}
+
+.borda__elfo {
+    border: 2px solid white;
+    width: 864px;
+    height: 204px;
+    margin: 10px 0px 0px 218px;
+    background-color: #8f3636;
+}
+
+.lista__elfo {
+    margin: 27px 0 0 -597px;
+}
+
+.poderes__elfo {
+    font-size: 22px;
+    font-family: "Courgette";
+    margin: 0px 0px 0px 630px;
+    line-height: 36px;
+}
+
+.titulo__poderes__elfo {
+    font-size: 40px;
+    font-family: "harry potter";
+    margin: 0px 0px 10px 290px;
+}
+
+.poderes__elfo__dois {
+    font-size: 22px;
+    font-family: "Courgette";
+    margin: -108px 0px 0px 888px;
+    line-height: 36px;
+}
+
+.poderes__elfo__tres {
+    font-size: 22px;
+    font-family: "Courgette";
+    margin: -108px 0 0 1126px;
+    line-height: 36px;
+}
+
+
+/*LAYOUT PHOENIX*/
+
+.phoenix {
+    margin-bottom: 85px;
+}
+
+.titulo__phoenix {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "harry potter";
+    margin: 90px 0 50px 0;
+}
+
+.texto__phoenix {
+    font-family: "Courgette";
+    font-size: 22px;
+    margin: 0px 20px 0 402px;
+    position: relative;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.gif__phoenix {
+    width: 380px;
+    margin-left: 10px;
+    float: left;
+}
+
+.borda__phoenix {
+    border: 2px solid white;
+    width: 449px;
+    margin: 10px 0 0 433px;
+    background-color: #8f3636;
+}
+
+.poderes__phoenix {
+    font-size: 22px;
+    font-family: "courgette";
+    margin: 25px 0 10px 19px;
+    line-height: 36px;
+}
+
+.titulo__poderes__phoenix {
+    margin: 0px 0px 10px 133px;
+    font-size: 40px;
+    font-family: "Harry Potter";
+}
+
+
+/*PAGINA FEITIÇOS*/
+
+.titulo__intro__feitico {
+    font-size: 50px;
+    font-family: "harry potter";
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.texto__intro__um {
+    margin: 0 681px 0px 15px;
+    font-family: courgette;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.texto__intro__dois {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: -433px 15px 0 696px;
+    text-align: justify;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+}
+
+.texto__intro__tres {
+    font-family: courgette;
+    font-size: 22px;
+    margin: -14px 681px 0 15px;
+    text-align: justify;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+}
+
+.feitico__paper {
+    width: 495px;
+    margin: -579px 0px 0px 795px;
+}
+
+.tres__paper {
+    width: 336px;
+    margin: -811px 0px 73px -947px;
+    position: absolute;
+}
+
+.gif__varinha {
+    width: 700px;
+    margin: -150px 0px 50px 14px;
+}
+
+
+/*PAGINA DA GRIFINORIA*/
+
+.fundo__grifinoria {
+    background-image: url(//fundo_grifinoria.jpg);
+    position: absolute;
+    opacity: calc(0.2);
+    width: 1349px;
+    height: 2795px;
+}
+
+.titulo__pagina__grifinoria {
+    text-align: center;
+    font-family: "harry potter";
+    font-size: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.titulo__caracteristicas__grifinoria {
+    display: block;
+    margin: 50px 0px 0px 80px;
+    font-family: "harry potter";
+    font-size: 40px;
+    position: relative;
+}
+
+.lista__caracteristicas__grifinoria {
+    font-family: "courgette";
+    font-size: 25px;
+    line-height: 40px;
+    margin: 10px 0px 0px 152px;
+    position: relative;
+}
+
+.titulo__personagens__grifinoria {
+    display: block;
+    font-family: "harry potter";
+    font-size: 50px;
+    text-align: center;
+    margin: 50px 0px;
+    position: relative;
+}
+
+
+/*PERSONAGENS GIF*/
+
+.personagens__um {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.personagem__gif__harry {
+    border: 5px solid rgb(0, 0, 0);
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #e79408, #53031c);
+    position: relative;
+}
+
+.gif__harry {
+    position: relative;
+    border-radius: 50%;
+    width: 220px;
+    margin: 5px 0px 4px 5px;
+    border: 5px solid black;
+}
+
+.botao__harry {
+    color: rgb(0, 0, 0);
+    font-family: courgette;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.personagem__gif__ronie {
+    border: 5px solid rgb(0, 0, 0);
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #e79408, #53031c);
+    position: relative;
+}
+
+.gif__ronie {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 5px 0px 4px 11px;
+    border: 5px solid black;
+}
+
+.botao__ronie {
+    color: rgb(0, 0, 0);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.personagem__gif__hermione {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #e79408, #53031c);
+    position: relative;
+}
+
+.gif__hermione {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 5px 0px 4px 0px;
+    border: 5px solid black;
+}
+
+.botao__hermione {
+    color: rgb(0, 0, 0);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagens__dois {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.personagem__gif__dumbledore {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #e79408, #53031c);
+    position: relative;
+}
+
+.gif__dumbledore {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 5px 0px 4px 0px;
+    border: 5px solid black;
+}
+
+.botao__dumbledore {
+    color: rgb(0, 0, 0);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__sirius {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #e79408, #53031c);
+    position: relative;
+}
+
+.gif__sirius {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 5px 0px 4px 0px;
+    border: 5px solid black;
+}
+
+.botao__sirius {
+    color: rgb(0, 0, 0);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__hagrid {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #e79408, #53031c);
+    position: relative;
+}
+
+.gif__hagrid {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid black;
+}
+
+.botao__hagrid {
+    color: black;
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+/* GODRICO GRIFINORIA*/
+
+.fundador__inicio {
+    margin-top: 130px;
+}
+
+.titulo__fundador {
+    font-family: "harry potter";
+    font-size: 50px;
+    margin: 100px 0px 0px 250px;
+    display: block;
+    position: relative;
+}
+
+.texto__fundador {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 404px 15px 20px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.gif__grifinoria {
+    position: absolute;
+    width: 365px;
+    height: 482px;
+    margin: -430px 0px 0px 958px;
+}
+
+
+/*ESPADA GRIFINORIA*/
+
+.espada__grifinoria {
+    margin-top: 130px;
+}
+
+.titulo__espada {
+    display: block;
+    font-family: "harry potter";
+    font-size: 50px;
+    margin: 70px 0px -15px 70px;
+    position: relative;
+}
+
+.texto__espada {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 545px 0px 20px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.gif__espada {
+    width: 505px;
+    position: absolute;
+    margin: -250px 0 0 818px;
+}
+
+
+/*SALA COMUNAL GRIFINORIA*/
+
+.sala__comunal__grifinoria {
+    margin-top: 130px;
+}
+
+.titulo__sala__comunal__grifinoria {
+    font-size: 50px;
+    font-family: "harry potter";
+    margin: 0px 0px 0px -250px;
+    text-align: center;
+    position: relative;
+}
+
+.texto__sala__comunal__grifinoria {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 20px 80px 13px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.gif__sala__comunal__grifinoria {
+    position: relative;
+    width: 555px;
+    margin: 87px 12px 0px 15px;
+    float: left;
+}
+
+
+/*PAGINA SONSERINA*/
+
+.fundo__sonserina {
+    background-image: url(//fundo_sonserina.jpg);
+    position: absolute;
+    opacity: calc(0.2);
+    width: 1349px;
+    height: 3411px;
+}
+
+.titulo__sonserina {
+    text-align: center;
+    font-family: "harry potter";
+    font-size: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.titulo__caracteristicas__sonserina {
+    display: block;
+    margin: 50px 0px 0px 182px;
+    font-family: "Harry Potter";
+    font-size: 40px;
+    position: relative;
+}
+
+.lista__caracteristicas__sonserina__um {
+    font-family: "courgette";
+    font-size: 25px;
+    line-height: 40px;
+    margin: 10px 0px 0px 152px;
+    position: relative;
+}
+
+.lista__caracteristicas__sonserina__dois {
+    font-family: "courgette";
+    font-size: 25px;
+    line-height: 40px;
+    margin: -160px 0px 286px 408px;
+    position: relative;
+}
+
+.titulo__personagens__sonserina {
+    display: block;
+    margin: -210px 0px 0px 541px;
+    font-family: "harry potter";
+    font-size: 40px;
+    position: relative;
+}
+
+.lista__personagens__sonserina {
+    font-family: "courgette";
+    font-size: 25px;
+    line-height: 40px;
+    margin: 10px 0px 145px 607px;
+}
+
+
+/*PERSONAGENS GIF*/
+
+.personagem__um {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.personagem__gif__draco {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #173825, white);
+    position: relative;
+}
+
+.gif__draco {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid black;
+}
+
+.botao__draco {
+    color: black;
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__voldemort {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #173825, white);
+    position: relative;
+}
+
+.gif__voldemort {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid black;
+}
+
+.botao__voldemort {
+    color: black;
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__snape {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #173825, white);
+    position: relative;
+}
+
+.gif__snape {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid black;
+}
+
+.botao__snape {
+    color: black;
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagens__dois {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.personagem__gif__dolores {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #173825, white);
+    position: relative;
+}
+
+.gif__dolores {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid black;
+}
+
+.botao__dolores {
+    color: black;
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__lucio {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #173825, white);
+    position: relative;
+}
+
+.gif__lucio {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid black;
+}
+
+.botao__lucio {
+    color: black;
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__bellatrix {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #173825, white);
+    position: relative;
+}
+
+.gif__bellatrix {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid black;
+}
+
+.botao__bellatrix {
+    color: black;
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+/* SALAZAR SLYTHERIN*/
+
+.fundador__sonserina {
+    margin-top: 130px;
+}
+
+.titulo__fundador__sonserina {
+    font-family: "harry potter";
+    font-size: 50px;
+    display: block;
+    position: relative;
+    margin: 100px 0px 0px 250px;
+}
+
+.texto__fundador__sonserina {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 404px 15px 20px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.gif__sonserina {
+    position: absolute;
+    width: 365px;
+    height: 482px;
+    margin: -540px 0px 0px 958px;
+}
+
+
+/*MEDALHAO SONSERINA*/
+
+.medalhao__sonserina {
+    margin-top: 130px;
+}
+
+.titulo__medalhao {
+    display: block;
+    font-family: "harry potter";
+    font-size: 50px;
+    margin: 70px 0px -15px 70px;
+    position: relative;
+}
+
+.texto__medalhao {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 20px 0px 20px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.gif__medalhao {
+    position: relative;
+    width: 555px;
+    height: 347px;
+    margin: 77px 12px 0px 15px;
+    float: right;
+}
+
+
+/*SALA COMUNAL SONSERINA*/
+
+.sala__comunal__sonserina {
+    margin-top: 130px;
+}
+
+.titulo__sala__comunal__sonserina {
+    font-size: 50px;
+    font-family: "harry potter";
+    margin: 0px 0px 0px -378px;
+    text-align: center;
+    position: relative;
+}
+
+.texto__sala__comunal__sonserina {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 20px 80px 13px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.sala__sonserina {
+    position: relative;
+    width: 708px;
+    height: 393px;
+    margin: 87px 12px 0px 15px;
+    float: left;
+}
+
+
+/*PAGINA LUFA-LUFA*/
+
+.fundo__lufa {
+    background-image: url(//fundo_lufa.jpg);
+    position: absolute;
+    opacity: calc(0.2);
+    width: 1349px;
+    height: 3289px;
+}
+
+.titulo__lufa {
+    text-align: center;
+    font-family: "harry potter";
+    font-size: 50px;
+    margin-top: 50px;
+    position: relative;
+    color: white;
+}
+
+.titulo__caracteristicas__lufa {
+    display: block;
+    margin: 50px 0px 14px 202px;
+    font-family: "Harry Potter";
+    font-size: 40px;
+    position: relative;
+}
+
+.lista__caracteristicas__lufa__um {
+    font-family: "courgette";
+    font-size: 25px;
+    line-height: 40px;
+    margin: 10px 0px 0px 152px;
+    position: relative;
+}
+
+.lista__caracteristicas__lufa__dois {
+    font-family: "courgette";
+    font-size: 25px;
+    line-height: 40px;
+    margin: -120px 0px 0px 450px;
+    position: relative;
+}
+
+.titulo__personagens__lufa {
+    display: block;
+    margin: 70px 0px 0px 541px;
+    font-family: "harry potter";
+    font-size: 40px;
+    position: relative;
+}
+
+
+/*GIF PERSONAGENS*/
+
+.personagem__gif__cedrico {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #e79408, black);
+    position: relative;
+}
+
+.gif__cedrico {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.botao__cedrico {
+    color: rgb(255, 255, 255);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__ninfadora {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #e79408, black);
+    position: relative;
+}
+
+.gif__ninfadora {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.botao__ninfadora {
+    color: rgb(255, 255, 255);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__pomona {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #e79408, black);
+    position: relative;
+}
+
+.gif__pomona {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.botao__pomona {
+    color: rgb(255, 255, 255);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__susan {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #e79408, black);
+    position: relative;
+}
+
+.gif__susan {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.botao__susan {
+    color: rgb(255, 255, 255);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__newt {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #e79408, black);
+    position: relative;
+}
+
+.gif__newt {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.botao__newt {
+    color: rgb(255, 255, 255);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+/* HELGA HUFFLEPUFF*/
+
+.fundador__inicio__lufa {
+    margin-top: 130px;
+}
+
+.titulo__fundador__lufa {
+    font-family: "harry potter";
+    font-size: 50px;
+    display: block;
+    position: relative;
+    margin: 100px 0px 0px 250px;
+}
+
+.texto__fundador__lufa {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 404px 15px 20px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.gif__lufa {
+    position: absolute;
+    width: 365px;
+    height: 482px;
+    margin: -505px 0px 0px 958px;
+}
+
+
+/*TAÇA LUFA*/
+
+.taca__lufa {
+    margin-top: 130px;
+}
+
+.taca {
+    margin-bottom: 250px;
+}
+
+.titulo__taca {
+    display: block;
+    font-family: "harry potter";
+    font-size: 50px;
+    margin: 70px 0px -15px 70px;
+    position: relative;
+}
+
+.texto__taca {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 20px 0px 20px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.gif__taca {
+    position: relative;
+    width: 500px;
+    height: 385px;
+    margin: 0px 12px 0px 15px;
+    float: right;
+}
+
+
+/*SALA COMUNAL LUFA-LUFA*/
+
+.titulo__sala__comunal__lufa {
+    font-size: 50px;
+    font-family: "harry potter";
+    margin: 0px 0px 0px -360px;
+    text-align: center;
+    position: relative;
+}
+
+.texto__sala__comunal__lufa {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 20px 80px 13px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.gif__sala__comunal__lufa {
+    position: relative;
+    width: 708px;
+    height: 436px;
+    margin: 87px 12px -3px 15px;
+    float: left;
+}
+
+
+/*PAGINA CORVINAL*/
+
+.fundo__corvinal {
+    background-image: url(//fundo_corvinal.jpg);
+    position: absolute;
+    opacity: calc(0.2);
+    width: 1349px;
+    height: 3128px;
+}
+
+.titulo__pagina__corvinal {
+    text-align: center;
+    font-family: "harry potter";
+    font-size: 50px;
+    margin-top: 50px;
+    position: relative;
+    color: white;
+}
+
+.titulo__caracteristicas__corvinal {
+    display: block;
+    margin: 50px 0px 14px 202px;
+    font-family: "Harry Potter";
+    font-size: 40px;
+    position: relative;
+}
+
+.lista__caracteristicas__corvinal__um {
+    font-family: "courgette";
+    font-size: 25px;
+    line-height: 40px;
+    margin: 10px 0px 0px 152px;
+    position: relative;
+}
+
+.lista__caracteristicas__corvinal__dois {
+    font-family: "courgette";
+    font-size: 25px;
+    line-height: 40px;
+    margin: -160px 0px 0px 450px;
+    position: relative;
+}
+
+.titulo__personagens__corvinal {
+    display: block;
+    margin: 70px 0px 0px 541px;
+    font-family: "harry potter";
+    font-size: 40px;
+    position: relative;
+}
+
+
+/*GIF PERSONAGENS*/
+
+.personagem__gif__luna {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #1d476f, white);
+    position: relative;
+}
+
+.gif__luna {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.botao__luna {
+    color: rgb(0, 0, 0);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__cho {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #1d476f, white);
+    position: relative;
+}
+
+.gif__cho {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.botao__cho {
+    color: rgb(0, 0, 0);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__sibila {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #1d476f, white);
+    position: relative;
+}
+
+.gif__sibila {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.botao__sibila {
+    color: rgb(0, 0, 0);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__quirino {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #1d476f, white);
+    position: relative;
+}
+
+.gif__quirino {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.botao__quirino {
+    color: rgb(0, 0, 0);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__gilderoy {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #1d476f, white);
+    position: relative;
+}
+
+.gif__gilderoy {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.botao__gilderoy {
+    color: rgb(0, 0, 0);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.personagem__gif__olivaras {
+    border: 5px solid #000000;
+    width: 238px;
+    height: 240px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #1d476f, white);
+    position: relative;
+}
+
+.gif__olivaras {
+    position: relative;
+    border-radius: 50%;
+    width: 203px;
+    height: 189px;
+    margin: 6px 0px 4px 0px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.botao__olivaras {
+    color: rgb(0, 0, 0);
+    font-family: "courgette";
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+/* ROWENA RAVENCLAW*/
+
+.fundador__inicio__corvinal {
+    margin-top: 130px;
+}
+
+.titulo__fundador__corvinal {
+    font-family: "harry potter";
+    font-size: 50px;
+    display: block;
+    position: relative;
+    margin: 100px 0px 0px 250px;
+}
+
+.texto__fundador__corvinal {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 404px 15px 20px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.gif__corvinal {
+    position: absolute;
+    width: 365px;
+    height: 482px;
+    margin: -349px 0px 0px 958px;
+}
+
+
+/*DIADEMA DE CORVINAL*/
+
+.diadema__corvinal {
+    margin-top: 289px;
+}
+
+.titulo__diadema {
+    display: block;
+    font-family: "harry potter";
+    font-size: 50px;
+    margin: 70px 0px -15px 70px;
+    position: relative;
+}
+
+.texto__diadema {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 20px 0px 20px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.gif__diadema {
+    position: relative;
+    width: 500px;
+    height: 385px;
+    margin: 0px 12px 0px 15px;
+    float: right;
+}
+
+
+/*SALA COMUNAL CORVINAL*/
+
+.sala__comunal__corvinal {
+    margin-top: 130px;
+}
+
+.titulo__sala__comunal__corvinal {
+    font-size: 50px;
+    font-family: "harry potter";
+    margin: 0px 0px 0px -360px;
+    text-align: center;
+    position: relative;
+}
+
+.texto__sala__comunal__corvinal {
+    font-family: "courgette";
+    font-size: 22px;
+    margin: 30px 20px 80px 13px;
+    display: block;
+    line-height: 40px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.gif__sala__comunal__corvinal {
+    position: relative;
+    width: 708px;
+    height: 436px;
+    margin: 84px 12px 0px 15px;
+    float: left;
+}
